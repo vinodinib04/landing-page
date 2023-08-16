@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>medicinal herbs</title>
+  <style>
+    body{
+      background: linear-gradient(44.8deg, rgba(255, 136, 102, 0.67) -53.1%, rgba(255, 221, 136, 0.28) 49%);
+
+    }
+    h1{
+      text-align: center;
+      color: rgb(19, 110, 79);
+      font-weight: bolder;
+      border-style: dotted;
+      margin:20px 500px 50px 500px;
+      border-color: blueviolet;
+      padding: 20px;
+      
+    }
+    h2{
+      text-align: center;
+      color: rgb(5, 39, 27);
+    }
+    img{
+      display: block;
+      margin: 0 auto;
+      width: 500px;
+      padding: 10px;
+      background-color:rgb(85, 49, 3);
+      border-radius: 14px;
+      
+    }
+    p{
+     text-align: center;
+     line-height: 150%
+     
+    }
+    button{
+      display:block;
+      margin: 0 auto;
+      font-size: 20px;
+      background-color: rgb(136, 109, 161);
+      color:white;
+      transition: 200ms solid ease-in-out;
+    }
+    button:hover{
+      background-color: rgb(161, 192, 232);
+      color: white;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .container{
+      display: block;
+      margin:  0 auto;
+    }
+    
+  </style>
+</head>
+<div class="container">
+<body>
+  <h1>
+    Medicinal herbs
+  </h1>
+  <h2>
+    Love herbal,get close to Nature
+  </h2>
+  <img src="https://www.viralspices.com/wp-content/uploads/2021/10/Importance-of-herbs-in-daily-life-624x312.jpg"/>
+  <p>
+    <strong>Herbal medicines</strong> are one type of dietary supplement.</br>
+    They are sold as tablets, capsules, powders, teas, extracts, andfresh or dried plants.</br>
+    People use <span> medicines </span>to try to maintain or improve their health.</br>The earliest historical
+     records of herbs are found from the Sumerian civilization,</br>where hundreds of medicinal plants
+    including opium are listed on clay tablets, c. 3000 BC.</br>
+     The Ebers Papyrus from ancient Egypt, c. 1550 BC, describes over
+    850 plant medicines</br> 
+    The Greek physician <em>Dioscorides</em>, who worked in the Roman army, documented recipes</br>for
+    medicines using over 600 medicinal plants in De materia medica AD</br>
+    <a href="https://en.wikipedia.org/wiki/Medicinal_plants">
+      Know more
+    </a>
+  </p>
+  <button>
+    👉Buy herbs
+  </button>
+</div>
+<script>
+  function buy(){
+  let name=prompt("what is your name?");
+  let email=prompt("what is your email?");
+  if(name.length>0||email.length>0){
+  alert("Thank you "+ name+" ,we will send the details through mail.");
+  }
+  else{
+    alert("name or email cant be empty... enter them")
+  }}
+  let buybutton=document.querySelector("button");
+  buybutton.addEventListener("click",buy);
+
+</script>
+  
+  
+
+</body>
+</html>
